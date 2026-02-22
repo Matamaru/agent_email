@@ -1,4 +1,17 @@
+# Python cache
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
 .venv/
+venv/
+
+# Test/cache
+.pytest_cache/
+.coverage
